@@ -1,0 +1,198 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Home</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="brand_name">Sweetshop.com</h1>
+        <p id="tag_line">The best sweet & bakery shop in the world</p>
+    </header>
+
+    <nav>
+        <form>
+            <input type="search" name="search" placeholder="search here" id="search">
+            <input type="submit" id="search-btn" value="Search">
+        </form>
+        
+        <table id="menu_table">
+            <tr>
+                <td id="menu_item"><a href="index.html">Home</a></td>
+                <td id="menu_item"><a href="sweets.html">Sweets</a></td>
+                <td id="menu_item"><a href="bakeries.html">Bakeries</a></td>
+                <td id="menu_item"><a href="#abt_us">About Us</a></td>
+                <td id="menu_item"><a href="#contact-us">Contact Us</a></td>
+            </tr>
+
+
+        </table>
+    </nav>
+
+    <section>
+        <adress id="venue">
+            Venue : Nandakumar, West Bengal
+        </adress>
+        <adress id="phone">
+            Order Online : +91 7452983783, +91 2323134121
+        </adress>
+        <div id="popular-sweets">
+            <h3 id="popular-title"> Our Popular Sweets</h3>
+            <img src="images/a.JPG" alt="a"  id="popular-sweets-img">
+            <img src="images/b.JPG" alt="b" id="popular-sweets-img">
+            <img src="images/c.JPG" alt="c" id="popular-sweets-img">
+            <img src="images/d.JPG" alt="d" id="popular-sweets-img">
+        </div>
+
+        <table id="price-list-box"> 
+            <tr >
+                <td id="rate-header">Sweet Name</td>
+                <td id="rate-header"> Prices</td>
+            </tr>
+            <tr>
+                <td id="rate-content">
+                    <ol>
+                        <li id="s_name">Rosogolla</li>
+                        <li id="s_name">Gulabjamun</li>
+                        <li id="s_name">Khirmalai</li>
+                        <li id="s_name">Sandash</li>
+                        <li id="s_name">Borfhi</li>
+                        <li id="s_name">Pantua</li>
+                        <li id="s_name">Amriti</li>
+                        <li id="s_name">Mihidana</li>
+                        <li id="s_name">Kalojam</li>
+                    </ol>
+                </td>
+                <td id="rate-content">
+                     <ol id="rate">
+                        <li id="s_name">10/Peice</li>
+                        <li id="s_name">7/Peice</li>
+                        <li id="s_name">10/Peice</li>
+                        <li id="s_name">120/Kg</li>
+                        <li id="s_name">140/Kg</li>
+                        <li id="s_name">100/Kg</li>
+                        <li id="s_name">5/Peice</li>
+                        <li id="s_name">100/Kg</li>
+                        <li id="s_name">6/Peice</li>
+                    </ol>
+                </td>
+            </tr>
+
+        </table>
+
+
+    <fieldset id="frm_box">
+        <legend id="Oder-title">Order Online</legend>
+        <form id="order-online">
+            Buyer Name<br>
+            <input type="text" name="name" id="order-input"><br><br>
+            Mobile No.<br>
+            <input type="number" name="mobile" id="order-input"><br><br>
+            Choose Sweet<br>
+            <select name="Choose Sweet" id="order-input">
+                <option value="select">Select</option>
+                <option value="Rosogolla"id="choose_sweet">Rosogolla</option>
+                <option value="Gulabjamun"id="choose_sweet">Gulabjamun</option>
+                <option value="Khirmalai"id="choose_sweet">Khirmalai</option>
+                <option value="Sandash"id="choose_sweet">Sandash</option>
+                <option value="Borfhi"id="choose_sweet">Borfhi</option>
+                <option value="Pantua"id="choose_sweet">Pantua</option>
+                <option value="Amriti" id="choose_sweet">Amriti</option>
+                <option value="Mihidana" id="choose_sweet">Mihidana</option>
+                <option value="Kalojam" id="choose_sweet">Kalojam</option>
+            </select>
+            <br><br>
+            Quantity <br>
+            <input type="text" name="Quantity" id="order-input">
+            <br><br>
+            Address <br>
+            <textarea name="Adress" id="text-area">
+            </textarea>
+            <br><br>
+            <input type="Submit" value="Order Now" id="sumbit_btn">
+
+        </form>
+    </fieldset>
+    <div id="abt_us">
+        <h1 align="center" id="abt_title">ABOUT US</h1>
+        <hr>
+        <p id="abt_text">
+            The word <b>“mishti”</b> has a special significance in the Bengali culinary lexicon. 
+            <b><i>Sweets shop means a heartful shop for Bengalis.</i></b> It refers to not only the taste 
+            of sweetness, but also a plethora of desserts that are not just a part of a meal, 
+            but also eaten on their own, served to guests, and offered to the gods. 
+            Mishti, therefore, is a rough title given to a plethora of delicacies 
+            of the sweet nature and can be divided into distinct parts not just by 
+            the way it is made, but also through the ingredients used. In the former aspect, 
+            mishti can be divided into parts based on the making technique, like fried, boiled, 
+            soaked in sweet syrup, formed into individual pieces, or sold by the gram. 
+            In the latter, mishti can be divided into the ingredients it is made out of like <b>“chhana”</b>
+            (cottage cheese), <b>“kheer”</b>(khoya), a variety of lentils and flours, coconut, and rice. 
+        </p>
+
+    </div>
+    <div id="m_sweets">
+        <h1 align="center" id="more-sweets">More Sweets</h1>
+    </div>
+    <div id="sweets">
+        <img src="images/g.jpg" id="sweet-1">
+        <center>
+            <a href="#frm_box"><button id="buy-btn">Buy Now</button></a>
+        </center>
+    </div>
+    <div id="sweets">
+        <img src="images/f.jpg" id="sweet-1">
+        <center>
+            <a href="#frm_box"><button id="buy-btn">Buy Now</button></a>
+        </center>
+    </div>
+    <div id="sweets">
+        <img src="images/e.jpg" id="sweet-1">
+        <center>
+            <a href="#frm_box"><button id="buy-btn">Buy Now</button></a>
+        </center>
+    </div>
+    <div id="sweets">
+        <img src="images/d.jpg" id="sweet-1">
+        <center>
+            <a href="#frm_box"><button id="buy-btn">Buy Now</button></a>
+        </center>
+    </div>
+    <div id="sweets">
+        <img src="images/c.jpg" id="sweet-1">
+        <center>
+            <a href="#frm_box"><button id="buy-btn">Buy Now</button></a>
+        </center>
+    </div>
+    <div id="sweets_end">
+        <img src="images/b.jpg" id="sweet-1">
+        <center>
+            <a href="#frm_box"><button id="buy-btn">Buy Now</button></a>
+        </center>
+    </div>
+    </section>
+    <footer>
+        <div id="contact-us">
+            <h1 id="contact-title">Contact Us</h1>
+            <address id="contact-details">Website : sweetshop.com</address>
+            <address id="contact-details">Phone Number : +91 75######35</address>
+            <address id="contact-details">Email Id : samir@gmail.com</address>
+            <address id="contact-details">Address : Nandakumar, West Bengal</address>
+        </div>
+        <div id="developer">Developed By : Samir Goswami<br>
+            <div id="copyrght"> © 2026 Sweetshop.com || All Rights Reserved.  
+
+            </div>
+        </div>
+        
+        <div id="social-links">
+            <h1 id="social_link_title">Follow Us</h1>
+            <img src="images/fb.png" id="social-logo">
+            <img src="images/insta.png"id="social-logo">
+            <img src="images/twt.png"id="social-logo">
+            <img src="images/yt.jpg"id="social-logo">
+
+        </div>
+    </footer>
+</body>
+</html>
