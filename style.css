@@ -117,6 +117,37 @@ section{
         box-sizing: border-box;
 
     }
+#popular-sweets-img1{
+        width:300px;
+        height:200px;
+        margin:20px;
+        border-width:4px;
+        border-style:solid;
+        border-color:white;
+        box-sizing: border-box;
+
+    }
+#popular-sweets-img2{
+        width:300px;
+        height:200px;
+        margin:20px;
+        border-width:4px;
+        border-style:solid;
+        border-color:white;
+        box-sizing: border-box;
+
+    }
+#popular-sweets-img3{
+        width:300px;
+        height:200px;
+        margin:20px;
+        border-width:4px;
+        border-style:solid;
+        border-color:white;
+        box-sizing: border-box;
+
+    }
+
 #price-list-box{
         width:500px;
         height:550px;
